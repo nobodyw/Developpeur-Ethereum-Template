@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "horodatage",
+						"type": "uint256"
+					}
+				],
+				"name": "getTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"STD1/Temps/Temps.sol": "Temps"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"STD1/Temps/Temps.sol": {
+			"keccak256": "0x0e482224e6495e14752c9c4481bc71acedb85c223518969931042771b469b608",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3381ee8cce4ac5ba684b755bd98dfca6a434e8cd7a3d771e99e510a46eca529d",
+				"dweb:/ipfs/QmeLyJZQQ6ohtaVmbzKJwWHaxeqG4TJAyktAdr1mLW8SVe"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arrayWhitelist",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "boolean",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "whitelist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"STD1/SelfWhiteList/SelfWhiteList.sol": "SelfWhiteList"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"STD1/SelfWhiteList/SelfWhiteList.sol": {
+			"keccak256": "0xeb9bf27a5a2f21c34f89fe74153376cb3e19dc5c7ac43f40365e910aeeaec3ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aebd2d3bcd69b777e10049574e8332de817897b98458413fd7902826fef10650",
+				"dweb:/ipfs/QmcqUPrvCVweLfdNoLVnRV2v2iJPQxb1NbRnj87xXmFiaQ"
+			]
+		}
+	},
+	"version": 1
+}

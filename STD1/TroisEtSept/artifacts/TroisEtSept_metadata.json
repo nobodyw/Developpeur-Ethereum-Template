@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_nbr",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "boolean",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"STD1/TroisEtSept/TroisEtSept.sol": "TroisEtSept"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"STD1/TroisEtSept/TroisEtSept.sol": {
+			"keccak256": "0x2aad5d3cdded35e0d21f5a62fd658cd75f2ae5d7f44cf01c4b799aef8679dcea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24d3a0d35dd66f816ded6f566b042ca78a96a6ee6d7e2f6f122f2152af7e7c10",
+				"dweb:/ipfs/QmRHVThc9FEcmiscxsRkYDDYW8ipz7VHJGCgoRJF4P2186"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "nbr",
+						"type": "uint256"
+					}
+				],
+				"name": "addPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrime",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"STD1/AllPrimeNumber/AllPrimeNumber.sol": "ALLPrimeNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"STD1/AllPrimeNumber/AllPrimeNumber.sol": {
+			"keccak256": "0x4c2a3015b13a3a97da7e4ffdea786f23d00724ad521570a6fc19af9887707e62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0fad2f3a037f2861fe9a4fc24fd7ba8e188722753201e1f94cd486fb8cda17d2",
+				"dweb:/ipfs/QmTiXSSKWvSRfjg1m2YGZjuUxYqzWRwJyM4r7USTTUfXfs"
+			]
+		}
+	},
+	"version": 1
+}
