@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "numberEleve",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "nameEleve",
+						"type": "string"
+					}
+				],
+				"name": "addNewStudent",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "eleve",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numberEleve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nameEleve",
+						"type": "string"
+					}
+				],
+				"name": "enroll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"STD2/Student/Student.sol": "Student"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"STD2/Student/Student.sol": {
+			"keccak256": "0x18e30c936a126101f79147f1e00516efe320545d9ba143356da6a0c983f41397",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://237b30e42daa2f5c1b372c6915fd4e430be28a63d05be5dec238acbaa3bc87e7",
+				"dweb:/ipfs/QmRBbJEE2SNpCFdqnux9PCYLLKASQ5qdLFCJ4wF6TJMn7Z"
+			]
+		}
+	},
+	"version": 1
+}
