@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_enseignant",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint8",
+						"name": "classe",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "Added",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Eleves",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "classe",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "joinDate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_classe",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_joinDate",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"STD2/AttendanceRegister/AttendanceRegister.sol": "AttendanceRegister"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"STD2/AttendanceRegister/AttendanceRegister.sol": {
+			"keccak256": "0x770f7dd0071ca06c67cb9e1df945b15516bc960dd6f21ce54edcb51392b6acf4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5fcc1e2cfd8b71f8ec83ebe4dbb1f70f26d1dda9e25e7b9fc6f0130974f2b692",
+				"dweb:/ipfs/QmbBPjLDdT9Ma9BaBnSNtJxisCsnMTC7SnAtsdopm865Qs"
+			]
+		}
+	},
+	"version": 1
+}
